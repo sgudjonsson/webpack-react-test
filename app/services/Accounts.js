@@ -4,7 +4,16 @@ class AccountsService {
   }
 
   getAll() {
-    return [{id:'010226000001'},{id:'010226012345'}];
+    return [{
+      id:'010226123456',
+      name: 'Tékkareikningur'
+    },{
+      id:'010205000001',
+      name: 'Vaxtareikningur'
+    }, {
+      id:'010205012345',
+      name: 'Kjörbók'
+    }];
   }
 }
 
