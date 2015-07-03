@@ -2,10 +2,12 @@ import AccountsService from '../services/Accounts.js';
 import React from 'react';
 
 class AccountSelector extends React.Component {
-  constructor() {
-    super();
+  
+  constructor(props) {
+    super(props);
     console.log('AccountSelector:constructor')
-    this.state = { accounts: AccountsService.getAll() };
+    console.log(['AccountSelector:constructor:props', this.props])
+    this.state = { accounts: AccountsService.getAll() }
   }
 
   render() {
