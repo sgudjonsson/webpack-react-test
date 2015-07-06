@@ -1,5 +1,7 @@
 import './style.css';
 import React from 'react';
-import AccountSelector from './components/account-selector.jsx';
+import ReactDom from 'react-dom';
+import AccountsOverview from './components/AccountsOverview.jsx';
 
-React.render(<AccountSelector selected="010205000001" />, document.getElementById('container'));
+const container = document.getElementById('container');
+ReactDom.render(<AccountsOverview />, container);

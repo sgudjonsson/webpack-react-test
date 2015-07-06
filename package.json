@@ -18,6 +18,8 @@
     "webpack": "^1.10.1"
   },
   "dependencies": {
-    "react": "^0.13.3"
+    "alt": "^0.17.0",
+    "react": "^0.14.0-beta1",
+    "react-dom": "^0.14.0-beta1"
   }
 }
